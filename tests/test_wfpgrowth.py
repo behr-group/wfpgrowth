@@ -157,7 +157,9 @@ class WFPGrowthTests(unittest.TestCase):
         expected = {("Bread", "Butter"): 6., ("Bread",): 10., ("Butter",): 8.}
         self.assertEqual(patterns, expected)
 
+def main():
+    unittest.main()
+
 
 if __name__ == '__main__':
-    import sys
-    sys.exit(unittest.main())
+    main()

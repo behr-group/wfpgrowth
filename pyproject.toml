@@ -1,0 +1,15 @@
+[project]
+name = "wfpgrowth"
+version = "0.1.0"
+description = "A Python implementation of the Frequent Pattern Growth algorithm with optional weights for transactions"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    { name = "Nicolas Alexander Ihlo" , email = "nicolas.ihlo@informatik.uni-regensburg.de" }
+  ]
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
